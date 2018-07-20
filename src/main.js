@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import store from './store'
+
+// 1. local state,  2. props 3. event bus 4. source of truth
 // import App from './App.vue'
 // import App from './props-demo/App.vue'
 // import App from './event-demo/App.vue'
