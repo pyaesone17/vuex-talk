@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h1>VUEX Demo</h1>
+    <img src="../assets/logo.png">
+    <TodoCount/>
     <Todo/>
+    <Clear/>
   </div>
 </template>
 
 <script>
-import Todo from './components/Todo.vue'
+import TodoCount from './TodoCount.vue'
+import Todo from './Todo.vue'
+import Clear from './Clear.vue'
 
 export default {
   name: 'app',
   components: {
-    Todo
+    TodoCount,
+    Todo,
+    Clear
   }
 }
 </script>
