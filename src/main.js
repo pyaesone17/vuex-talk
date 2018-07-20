@@ -7,15 +7,16 @@ import store from './store'
 import App from './vuex-demo/App.vue'
 
 Vue.config.productionTip = false
-// const sourceOfTruth = { items : []}
 
+// ----------------- enable this for eventbus, propds, manual ------------
+// const sourceOfTruth = { items : []}
 // new Vue({
 //   render: h => h(App),
 //   data: sourceOfTruth
 // }).$mount('#app')
 
 
-// const sourceOfTruth = { items : []}
+// ---------------- enable this for vuex -----------------
 new Vue({
   render: h => h(App),
   store
